@@ -19,7 +19,7 @@
 | f13 | f14 | f15 | f16 | f17 | f18 |<fn]  [num>|  *  |  /  |  1  |  2  |  3  |  =  |
 |pg dn| ins |     |     |     |     |<cmd][spec>|     |     |  !  |  @  |  #  |     |
 
-| <-- | dwn | <__ |enter|  (  | - _ |           | = + |  )  | spc | __< | up  | --> |
+| <-- | dwn | <__ |  (  |enter| - _ |           | = + |space|  )  | __< | up  | --> |
 |-----|-----|-----|-----|-----|-----|:---------:|-----|-----|-----|-----|-----|-----|
 |     |     |     |     |shift| ctl |    MOD    | ctl |shift|     |     |     |     |
 | f19 | f20 | f21 | f22 | f23 | f24 |<fn]  [num>|     |     |     |     |     |     |
@@ -28,19 +28,11 @@
 
 Make example for this keyboard (after setting up your build environment):
 
-<<<<<<< HEAD
-    make planck-rev3-phreed
-
-To flash the keyboard
-
-    make planck-rev3-phreed-dfu
-=======
     make planck/rev3:phreed
 
 To flash the keyboard
 
     make planck/rev3:phreed:dfu
->>>>>>> f113f1927fb6e4fd108b003863d4cce967292a9c
 
 See [build environment setup](https://docs.qmk.fm/build_environment_setup.html) then the
 [make instructions](https://docs.qmk.fm/make_instructions.html) for more information.

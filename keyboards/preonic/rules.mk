@@ -46,6 +46,9 @@ endif
 ifeq ($(strip $(KEYBOARD)), preonic/rev2)
     BOOTLOADER = qmk-dfu
 endif
+ifeq ($(strip $(KEYBOARD)), preonic/rev3)
+    BOOTLOADER = qmk-dfu
+endif
 
 # Interrupt driven control endpoint task(+60)
 OPT_DEFS += -DINTERRUPT_CONTROL_ENDPOINT

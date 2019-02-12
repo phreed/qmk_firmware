@@ -1,18 +1,6 @@
 # The Phreed Prionic Layout
 
 
-Make example for this keyboard (after setting up your build environment):
-
-    make planck/rev3:phreed
-
-To flash the keyboard
-
-    make preonic/rev3:phreed:dfu-util
-
-See [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) then the
-[make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information.
-
-
 ##  _QWERT
 
 |  1    |     2    |     3    |     4    |     5    |     A      |    B       |   6    |     7    |     8    |        9 |     10   | 
@@ -69,4 +57,18 @@ See [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools)
 |  LEFT |     |  RIGHT |    |     |     |     |     |     |     |     |     |
 |  END |   DOWN |  PGDN |     |     |     |     |     |     |     |     |     |
 |     |  INS |   DEL |      |     |     |     |     |  LCTL |  LALT |  LSFT |  _______ |
+
+
+
+
+Make example for this keyboard (after setting up your build environment):
+
+    make planck/rev3:phreed
+
+To flash the keyboard
+
+    make preonic/rev3:phreed:dfu-util
+
+See [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) then the
+[make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information.
 

@@ -28,11 +28,11 @@ See [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools)
 
 |  1    |     2    |     3    |     4    |     5    |     A      |    B       |   6    |     7    |     8    |        9 |     10   | 
 |-------| -------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------| 
-|  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  PSLS |  PAST |  PMNS | 
-|  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  RABK |  P7 |    P8 |    P9 |    PPLS |
-|  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  EQL |   P4 |    P5 |    P6 |    CIRC |
-|  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  LABK |  P1 |    P2 |    P3 |    PEQL |
-|  _______ |  NLCK |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  P0 |    PDOT |  PENT |
+|     |     |     |     |     |     |     |     |     |  PSLS |  PAST |  PMNS | 
+|     |     |     |     |     |     |     |  RABK |  P7 |    P8 |    P9 |    PPLS |
+|     |     |     |     |     |     |     |  EQL |   P4 |    P5 |    P6 |    CIRC |
+|     |     |     |     |     |     |     |  LABK |  P1 |    P2 |    P3 |    PEQL |
+|  _______ |  NLCK |     |     |     |     |     |     |     |  P0 |    PDOT |  PENT |
 
 
 ## _SCL
@@ -40,11 +40,11 @@ See [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools)
 
 |  1    |     2    |     3    |     4    |     5    |     A      |    B       |   6    |     7    |     8    |        9 |     10   | 
 |-------| -------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------| 
-|  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  OSM(MOD_LCTL) |  OSM(MOD_RCTL) |  XXXXXXX |  DEBUG |     RESET |
-|  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  OSM(MOD_LSFT) |  OSM(MOD_RSFT) |  XXXXXXX |  XXXXXXX |   XXXXXXX |
-|  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  OSM(MOD_LALT) |  OSM(MOD_RALT) |  XXXXXXX |  POWER |  PWR | 
-|  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  OSM(MOD_LGUI) |  OSM(MOD_RGUI) |  MUTE |  WAKE |   SLEP |
-|  XXXXXXX |  _______ |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  OSM(MOD_HYPR) |  OSM(MOD_MEH) |   APP |   DASH |      LOCK |
+|     |     |     |     |     |     |     |  OSM(MOD_LCTL) |  OSM(MOD_RCTL) |     |  DEBUG |     RESET |
+|     |     |     |     |     |     |     |  OSM(MOD_LSFT) |  OSM(MOD_RSFT) |     |     |      |
+|     |     |     |     |     |     |     |  OSM(MOD_LALT) |  OSM(MOD_RALT) |     |  POWER |  PWR | 
+|     |     |     |     |     |     |     |  OSM(MOD_LGUI) |  OSM(MOD_RGUI) |  MUTE |  WAKE |   SLEP |
+|     |  _______ |     |     |     |     |     |  OSM(MOD_HYPR) |  OSM(MOD_MEH) |   APP |   DASH |      LOCK |
 
 
 ## _FUN
@@ -52,11 +52,11 @@ See [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools)
 
 |  1    |     2    |     3    |     4    |     5    |     A      |    B       |   6    |     7    |     8    |        9 |     10   | 
 |-------| -------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------| 
-|  F1 |    F2 |    F3 |    F4 |    F5 |    F6 |    XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |
-|  F7 |    F8 |    F9 |    F10 |   F11 |   F12 |   XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |
-|  F13 |   F14 |   F15 |   F16 |   F17 |   F18 |   XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |
-|  F19 |   F20 |   F21 |   F22 |   F23 |   F24 |   XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |
-|  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  LCTL |  LALT |  LSFT |  _______ |  XXXXXXX |
+|  F1 |    F2 |    F3 |    F4 |    F5 |    F6 |       |     |     |     |     |     |
+|  F7 |    F8 |    F9 |    F10 |   F11 |   F12 |      |     |     |     |     |     |
+|  F13 |   F14 |   F15 |   F16 |   F17 |   F18 |      |     |     |     |     |     |
+|  F19 |   F20 |   F21 |   F22 |   F23 |   F24 |      |     |     |     |     |     |
+|     |     |     |     |     |     |     |  LCTL |  LALT |  LSFT |  _______ |     |
 
 
 ## _NAV
@@ -64,9 +64,9 @@ See [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools)
 
 |  1    |     2    |     3    |     4    |     5    |     A      |    B       |   6    |     7    |     8    |        9 |     10   | 
 |-------| -------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------| 
-|  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |
-|  HOME |  UP |    PGUP |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |
-|  LEFT |  XXXXXXX |  RIGHT | XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |
-|  END |   DOWN |  PGDN |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |
-|  XXXXXXX |  INS |   DEL |   XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  XXXXXXX |  LCTL |  LALT |  LSFT |  _______ |
+|     |     |     |     |     |     |     |     |     |     |     |     |
+|  HOME |  UP |    PGUP |     |     |     |     |     |     |     |     |     |
+|  LEFT |     |  RIGHT |    |     |     |     |     |     |     |     |     |
+|  END |   DOWN |  PGDN |     |     |     |     |     |     |     |     |     |
+|     |  INS |   DEL |      |     |     |     |     |  LCTL |  LALT |  LSFT |  _______ |
 
